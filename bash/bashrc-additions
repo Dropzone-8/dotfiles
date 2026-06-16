@@ -1,0 +1,17 @@
+
+# --- Default Editor ---
+
+export EDITOR=nvim
+
+export VISUAL=nvim
+
+export SUDO_EDITOR=nvim
+
+
+
+# --- Aliases ---
+
+alias vi='nvim'
+
+alias vim='nvim'
+

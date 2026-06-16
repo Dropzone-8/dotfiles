@@ -1,0 +1,66 @@
+# ─── Alacritty Configuration ────────────────────────────
+# Location: %APPDATA%\alacritty\alacritty.toml
+# Docs: https://alacritty.org/config-alacritty.html
+
+# ─── Default Shell ───────────────────────────────────────
+# Launch directly into WSL Ubuntu
+[terminal]
+shell = { program = "wsl", args = ["-d", "Ubuntu-26.04", "--cd", "~"] }
+
+# ─── Font ─────────────────────────────────────────────────
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+# ─── Window ──────────────────────────────────────────────
+[window]
+padding = { x = 4, y = 4 }
+decorations = "Full"
+opacity = 0.85
+startup_mode = "Maximized"
+
+# ─── Colors ──────────────────────────────────────────────
+# Custom: Black + Teal/Orange accents
+[colors.primary]
+background = "#0c0c0c"
+foreground = "#cccccc"
+
+[colors.normal]
+black   = "#0c0c0c"
+red     = "#c50f1f"
+green   = "#13a10e"
+yellow  = "#b5651d"
+blue    = "#0037da"
+magenta = "#881798"
+cyan    = "#3a96dd"
+white   = "#cccccc"
+
+[colors.bright]
+black   = "#767676"
+red     = "#e74856"
+green   = "#16c60c"
+yellow  = "#cc5500"
+blue    = "#3b78ff"
+magenta = "#b4009e"
+cyan    = "#61d6d6"
+white   = "#f2f2f2"
+
+# ─── Cursor ──────────────────────────────────────────────
+[cursor.style]
+shape = "Block"
+blinking = "Off"
+
+# ─── Scrolling ───────────────────────────────────────────
+[scrolling]
+history = 50000

@@ -1,0 +1,9 @@
+
+[user]
+
+    name = Dropzone-8
+
+[core]
+
+    editor = nvim
+
