@@ -1,0 +1,58 @@
+# --- Ghostty Configuration ---
+# Location: ~/.config/ghostty/config.ghostty
+# Docs: https://ghostty.org/docs/config
+
+# --- Font ---
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+
+# ---Theme: Emberforge ---
+# Custom theme created on 2026-06-17 with Copilot's help.
+# Built from custom dark background, Dark 2026 (text),
+# Farmhouse Dark (accents) - with custom teal and burnt orange.
+
+# Background & Foreground
+background = 1a1a1a
+foreground = bfbfbf
+
+# Palette 0-7 (normal colors)
+palette = 0=#1a1a1a
+palette = 1=#ba0004
+palette = 2=#549d00
+palette = 3=#c87300
+palette = 4=#0049e6
+palette = 5=#9f1b61
+palette = 6=#3a96dd
+palette = 7=#bfbfbf
+
+#Palette 8-15 (bright colors)
+palette = 8=#555555
+palette = 9=#eb0009
+palette = 10=#7ac100
+palette = 11=#cc5500
+palette = 12=#006efe
+palette = 13=#bf3b7f
+palette = 14=#5ac6c6
+palette = 15=#d7d7d7
+
+# --- Windows ---
+window-padding-x = 4
+window-padding-y = 4
+background-opacity = 0.90
+
+# --- Cursor ---
+cursor-style = block
+cursor-style-blink = false
+
+# --- Shell Integration ---
+shell-integration = bash
+
+# --- Clipboard ---
+copy-on-select = clipboard
+
+# --- Scrollback ---
+scrollback-limit = 50000
+
+# --- Misc ---
+confirm-close-surface = false
+mouse-hide-while-typing = true
