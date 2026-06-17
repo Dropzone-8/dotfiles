@@ -1,9 +1,12 @@
 
 [user]
 
-    name = Dropzone-8
+	name = Juan Angel
+	email = juan.CodeDev@outlook.com
 
 [core]
 
     editor = nvim
 
+[credential]
+	helper = store
